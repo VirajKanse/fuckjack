@@ -9,7 +9,7 @@ steps:
 - name: test
   image: gcc
   commands:
-  - sudo apt-get update
+  - apt-get update
   - curl https://raw.githubusercontent.com/WolfOSP/scripts/hmp/changelog-generator.sh -o changelog-generator.sh
   - bash changelog-generator.sh
   - echo "heo"
