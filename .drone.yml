@@ -16,4 +16,5 @@ steps:
   - pwd
   - echo $DRONE_WORKSPACE
   - cd $HOME
+  - pwd
   - cd $DRONE_WORKSPACE
