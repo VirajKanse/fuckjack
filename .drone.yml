@@ -1,0 +1,14 @@
+kind: pipeline
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: test
+  image: gcc
+  commands:
+  - curl https://raw.githubusercontent.com/WolfOSP/scripts/hmp/changelog-generator.sh -o changelog-generator.sh
+  - bash changelog-generator.sh
+  - echo "heo"
