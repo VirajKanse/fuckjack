@@ -7,7 +7,7 @@ platform:
 
 steps:
 - name: test
-  image: gcc
+  image: ubuntu
   commands:
   - apt-get update
   - curl https://raw.githubusercontent.com/WolfOSP/scripts/hmp/changelog-generator.sh -o changelog-generator.sh
