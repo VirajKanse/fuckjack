@@ -4,6 +4,7 @@ jobs:
   compile:
    docker:
       - image: ubuntu:18.04
+      - resource_class: xlarge
    steps:
       - run:
           command: |
