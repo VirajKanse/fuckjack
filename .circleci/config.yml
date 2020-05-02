@@ -12,7 +12,6 @@ jobs:
            git config --global user.name "Quantummech2000"
            git config --global user.email "vvr-rockstar@bmsit.in"
            git config --global color.ui false
-           git clone https://github.com/vvr3ddy/WolfKernel.git -b EAS-Staging
            git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9 toolchain32
            git clone https://github.com/vranger/clang clang
            wget https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu.tar.xz
